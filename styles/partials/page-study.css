@@ -225,8 +225,8 @@
     }
 
     .page-header .header-content{
-        max-width: 740px;
-        margin: 0 auto;
+        max-width: 1100px;
+        margin: 0 au0to;
         flex: 1 1;
         padding-bottom: 48px;
         display: flex;
@@ -235,7 +235,8 @@
     }
 
     .page-header .header-content strong{
-        max-width:550px;
+        max-width:750px;
+        margin-top: -70px;
     }
     
 
@@ -246,9 +247,10 @@
     #search-teachers{
         display: grid;
         grid-template-columns: repeat(4, 1fr);
+        width:1100px;
         gap: 16px;
         position: absolute;
-        bottom:-58px;
+        bottom:-90px;
     }
     #page-study main{
         padding:32px 0;
